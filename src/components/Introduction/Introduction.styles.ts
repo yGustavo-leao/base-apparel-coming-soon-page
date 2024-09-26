@@ -57,7 +57,7 @@ export const ModelImg = styled.img`
     max-width: 500px;
 
     @media (min-width: 932px) {
-        content: url('/assets/images/hero-desktop.jpg');
+        content: url(${process.env.PUBLIC_URL}/assets/images/hero-desktop.jpg);
         margin-bottom: 0;
         width: auto;
         max-width: none;

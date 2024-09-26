@@ -1,7 +1,6 @@
 import { Container, DataButton, DataButtonImg, DataContainer, DataInput, Header, IntroductionText, Logo, ModelImg, Span, Title } from "./Introduction.styles"
 
 export const Introduction = () => {
-    process.env.PUBLIC_URL
     return (
         <Container>
             <Header>
