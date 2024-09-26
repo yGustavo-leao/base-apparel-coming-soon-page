@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/seu-repositorio/static/js/main.cedf3ce0.js",
+    "index.html": "/seu-repositorio/index.html",
+    "main.cedf3ce0.js.map": "/seu-repositorio/static/js/main.cedf3ce0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cedf3ce0.js"
+  ]
+}
