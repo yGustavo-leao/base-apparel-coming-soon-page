@@ -1,12 +1,13 @@
 import { Container, DataButton, DataButtonImg, DataContainer, DataInput, Header, IntroductionText, Logo, ModelImg, Span, Title } from "./Introduction.styles"
 
 export const Introduction = () => {
+    process.env.PUBLIC_URL
     return (
         <Container>
             <Header>
-                <Logo src="/assets/images/logo.svg" alt="Logo" />
+                <Logo src={`${process.env.PUBLIC_URL}/assets/images/logo.svg`} alt="Logo" />
             </Header>
-            <ModelImg src="/assets/images/hero-mobile.jpg" alt="Model img" />
+            <ModelImg src={`${process.env.PUBLIC_URL}/assets/images/hero-mobile.jpg`} alt="Model img" />
             <Title>
                 <Span>WE'RE</Span>
                 COMING
@@ -20,7 +21,7 @@ export const Introduction = () => {
             <DataContainer htmlFor="dataInput" >
                 <DataInput id="dataInput" placeholder="Email Address"></DataInput>
                 <DataButton>
-                    <DataButtonImg src="/assets/images/icon-arrow.svg" alt="Arrow img" />
+                    <DataButtonImg src={`${process.env.PUBLIC_URL}/assets/images/icon-arrow.svg`} alt="Arrow img" />
                 </DataButton>
             </DataContainer>
         </Container>
